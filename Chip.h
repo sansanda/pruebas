@@ -35,6 +35,8 @@ public:
     bool getIsFirstChip() const;
     void setIsFirstChip(bool value);
 
+    QString toString();
+
 signals:
 
 public slots:
