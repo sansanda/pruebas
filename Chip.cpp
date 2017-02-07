@@ -118,11 +118,12 @@ void Chip::setY(int sY)
 
 QString Chip::toString(){
     QString res = "";
-    res = res + "\n";
-    res = res + "\n";
-    res = res + "\n";
-    res = res + "\n";
-    res = res + "\n";
-    res = res + "\n";
+    res = res + "[X,Y]: [" + getX()+ "," + getY() + "]\n";
+    res = res + "Order: " + getOrder() + "\n";
+    res = res + "Is Origin?: " + getOrigin() + "\n";
+    res = res + "Is First Chip?: " + getIsFirstChip() + "\n";
+    res = res + "Is Selected?: " + getSelected() + "\n";
+    res = res + "Is Visible?: " + getVisible() + "\n";
+    res = res + "Is Measuring?: " + getMeasuring() + "\n";
     return res;
 }
