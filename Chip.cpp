@@ -118,5 +118,11 @@ void Chip::setY(int sY)
 
 QString Chip::toString(){
     QString res = "";
+    res = res + "\n";
+    res = res + "\n";
+    res = res + "\n";
+    res = res + "\n";
+    res = res + "\n";
+    res = res + "\n";
     return res;
 }
